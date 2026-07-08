@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration - Shoaib Ahmed Portfolio</title>
+</head>
+<body>
+    <table width="100%" bgcolor="#f4f4f4" cellpadding="10">
+        <tr>
+            <td align="center">
+                <a href="index.html">Home</a> | 
+                <a href="images.html">Images</a> | 
+                <a href="audios.html">Audios</a> | 
+                <a href="videos.html">Videos</a> | 
+                <a href="registration.html"><b>Registration</b></a> | 
+                <a href="table.html">Table</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1 align="center">Student Registration Form</h1>
+
+    <form action="#" method="POST">
+        <table border="1" align="center" cellpadding="10" cellspacing="0" width="50%">
+            <tr>
+                <td><label for="name"><b>Name:</b></label></td>
+                <td><input type="text" id="name" name="name" placeholder="Shoaib Ahmed" required></td>
+            </tr>
+            <tr>
+                <td><label for="email"><b>Email:</b></label></td>
+                <td><input type="email" id="email" name="email" value="shoaibqambrani575@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="password"><b>Password:</b></label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male" checked> <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female"> <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country"><b>Country:</b></label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="United States">United States</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Language Selection:</b></td>
+                <td>
+                    <input type="checkbox" id="lang1" name="language" value="English" checked> <label for="lang1">English</label>
+                    <input type="checkbox" id="lang2" name="language" value="Sindhi"> <label for="lang2">Sindhi</label>
+                    <input type="checkbox" id="lang3" name="language" value="Urdu"> <label for="lang3">Urdu</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="program"><b>Program:</b></label></td>
+                <td>
+                    <select id="program" name="program">
+                        <option value="BSCS">BS Computer Science</option>
+                        <option value="BSIT">BS Information Technology</option>
+                        <option value="BSEE">BS Electrical Engineering</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="city"><b>City:</b></label></td>
+                <td><input type="text" id="city" name="city" placeholder="Enter City" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob"><b>Date of Birth:</b></label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    &nbsp;&nbsp;
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

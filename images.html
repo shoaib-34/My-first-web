@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Images - Shoaib Ahmed Portfolio</title>
+    
+    <style>
+        /* Isse gallery ki sabhi images ek fixed size ki ho jayengi aur stretch nahi hongi */
+        .gallery-table img {
+            width: 250px;      /* Aap apni marzi se width badal sakte hain */
+            height: 180px;     /* Fixed height taaki sab ek jaisi lagein */
+            object-fit: cover; /* Isse image crop ho jayegi par kharab (stretch) nahi dikhegi */
+            border-radius: 4px;/* Thoda sa rounded corners ke liye (optional) */
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" bgcolor="#f4f4f4" cellpadding="3">
+        <tr>
+            <td align="center">
+                <a href="index.html">Home</a> | 
+                <a href="images.html"><b>Images</b></a> | 
+                <a href="audios.html">Audios</a> | 
+                <a href="videos.html">Videos</a> | 
+                <a href="registration.html">Registration</a> | 
+                <a href="table.html">Table</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1 align="center">My Image Gallery</h1>
+    
+    <table border="1" align="center" cellpadding="5" cellspacing="5" class="gallery-table">
+        <tr>
+           
+            <td align="center">
+                <img src="4.jpg" alt="Gallery Image 2"><br>
+                <p>Image 1</p>
+            </td>
+            <td align="center">
+                <img src="5.jpg" alt="Gallery Image 3"><br>
+                <p>Image 2</p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="3.jpg" alt="Gallery Image 4"><br>
+                <p>Image 3</p>
+            </td>
+       <td align="center">
+                <img src="6.jpg" alt="Gallery Image 1"><br>
+                <p>Image 4</p>
+            </td>
+            <td align="center">
+                <img src="2.jpg" alt="Gallery Image 5"><br>
+                <p>Image 5</p>
+            </td>
+            <td align="center">
+                <img src="1.jpg" alt="Gallery Image 6"><br>
+                <p>Image 6</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
